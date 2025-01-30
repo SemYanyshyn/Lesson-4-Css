@@ -1,0 +1,342 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0px;
+  color: whitesmoke;
+}
+
+header {
+  display: flex;
+}
+
+.header-box-first {
+  padding: 10px;
+  border: 3px solid rgb(92, 116, 145);
+  height: auto;
+  width: 20%;
+  background-color: rgb(110, 141, 174);
+  display: flex;
+  flex-direction: column;
+}
+
+.header-box {
+  padding: 10px;
+  border: 2px solid rgb(98, 124, 154);
+  height: auto;
+  width: 20%;
+  background-color: #5d7595;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgb(61, 86, 113), rgb(123, 147, 184));
+}
+
+.card-title-big {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header2-line {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+}
+
+.line {
+  height: 4px;
+  width: 20px;
+  background-color: #aaeaf1;
+}
+
+.defining-m {
+  color: #aaeaf1;
+  margin: 2px;
+}
+
+.header-arrow {
+  display: flex;
+  gap: 25px;
+  position: relative;
+}
+.header-arrow i {
+  position: absolute;
+  top: 5px;
+  left: 75%;
+  color: #aaeaf1;
+  font-size: 35px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-icon {
+  width: 100%;
+  height: auto;
+}
+
+.first-icon img {
+  width: 100%;
+  height: 650px;
+  display: block;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between; /* Розтягує контент по всій ширині */
+  width: 100%;
+}
+
+.header-box-1 {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid rgb(98, 124, 154);
+  background-color: #5d7595;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 250px;
+  height: auto;
+  background: linear-gradient(90deg, rgb(61, 86, 113), rgb(123, 147, 184));
+}
+
+.card-title-small-1 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 3px;
+}
+
+.card-title-big-1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Montserrat", serif;
+  margin-top: 12px;
+}
+
+.header-image {
+  width: 190px;
+  border: 2px solid rgb(98, 124, 154);
+  height: auto;
+}
+
+.block-circle {
+  width: 250px;
+  gap: 10px;
+  height: auto;
+}
+
+.card-title-small-2 {
+  display: flex;
+  position: relative;
+  left: 3px;
+  gap: 50px;
+}
+
+.Enable {
+  display: flex;
+  gap: 4px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: turquoise;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.card-title-small-3 {
+  display: flex;
+  gap: 20px;
+}
+
+.card-title-small-4 {
+  display: flex;
+  font-size: 20px;
+  position: relative;
+  left: 3px;
+  margin-top: 3px;
+}
+
+.Triangle {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 15px solid #40e0d0;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.V {
+  display: inline-block;
+  margin-left: 7px;
+  position: relative;
+  top: -5px;
+}
+
+.card-title-big-2 {
+  color: white;
+  font-size: 40px;
+  font-family: "Montserrat", serif;
+  margin-top: 5px;
+}
+
+.card-title-small-2 {
+  color: turquoise;
+  font-size: 17px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.horisontal-block {
+  background: linear-gradient(90deg, rgb(61, 86, 113), rgb(123, 147, 184));
+  width: 100%;
+  height: 120px;
+  border: 2px solid rgb(98, 124, 154);
+  background-color: #5d7595;
+  color: turquoise;
+  padding: 15px;
+  align-content: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box; /*padding та border не збільшують загальну ширину.*/
+}
+
+.word-1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+
+.word-3 {
+  align-items: flex-end;
+  margin-left: 40%;
+}
+
+.galka::before {
+  content: "\2611";
+  font-size: 35px;
+  color: turquoise;
+  margin-left: 5px;
+}
+
+.four-blocks {
+  display: flex;
+  width: 100%;
+}
+
+.blocks-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.left-part,
+.right-part {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+
+.left-top,
+.right-top,
+.right-top-5 {
+  width: 100%;
+  height: 100px;
+  border: 2px solid rgb(98, 124, 154);
+  background-color: #5d7595;
+  padding: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgb(61, 86, 113), rgb(123, 147, 184));
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1; /* Дозволяє блокам рости однаково */
+}
+
+.time-top-1 {
+  font-size: 40px;
+  top: 25px;
+  position: absolute; //*відштовхує ел.від бат.конт.без впливу розміру ін.ел*/
+}
+
+.desc-top-1 {
+  display: flex;
+  display: grid;
+  place-items: center;
+  transform: translateY(+20px);
+  margin-left: -50px;
+  color: #a2abab;
+}
+
+.day-top {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateY(-20px);
+  display: grid;
+  place-items: center;
+}
+
+.num-top {
+  position: relative;
+  top: 2px; /*  опускає вниз але обов.має бути relative */
+}
+
+.left-bottom-time-3 {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateY(+19px);
+  display: grid;
+  place-items: center;
+}
+
+.time-top-5 {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: aqua;
+}
+
+.right-top-5 {
+  display: flex;
+}
+
+.num-top-5 {
+  display: flex;
+  position: relative;
+  justify-content: end; /* Вирівнює по горизонталі */
+  bottom: 25px;
+}
+
+.num-top-5-triangle {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 15px solid #40e0d0;
+  margin-left: 396px;
+  display: block; /* Додає нормальну поведінку блочного елемента */
+  margin-bottom: 9px;
+}
+
+.bordero {
+  border: none;
+}
+
+.horisontal-block-2 {
+  background: linear-gradient(90deg, rgb(61, 86, 113), rgb(123, 147, 184));
+  width: 100%;
+  height: 120px;
+  border: 2px solid rgb(98, 124, 154);
+  background-color: #5d7595;
+  color: turquoise;
+  padding: 15px;
+  align-content: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box; /*padding та border не збільшують загальну ширину.*/
+}
+
+.word-5 {
+  margin-left: 62%;
+}
