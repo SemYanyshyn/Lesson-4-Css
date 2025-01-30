@@ -211,7 +211,7 @@ main {
 
 .word-3 {
   align-items: flex-end;
-  margin-left: 50%;
+  margin-left: 40%;
 }
 
 .galka::before {
