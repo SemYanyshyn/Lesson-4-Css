@@ -211,7 +211,7 @@ main {
 
 .word-3 {
   align-items: flex-end;
-  margin-left: 40%;
+  margin-left: 60%;
 }
 
 .galka::before {
@@ -312,7 +312,7 @@ main {
   display: flex;
   position: relative;
   justify-content: end; /* Вирівнює по горизонталі */
-  bottom: 60px;
+  bottom: 50px;
   font-size: 20px;
   position: relative;
 }
