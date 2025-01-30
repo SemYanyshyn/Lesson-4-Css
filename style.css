@@ -211,7 +211,7 @@ main {
 
 .word-3 {
   align-items: flex-end;
-  margin-left: 40%;
+  margin-left: 75%;
 }
 
 .galka::before {
@@ -312,8 +312,9 @@ main {
   display: flex;
   position: relative;
   justify-content: end; /* Вирівнює по горизонталі */
-  bottom: -11px;
+  bottom: 40px;
   font-size: 20px;
+  position: relative;
 }
 
 .num-top-5-triangle {
@@ -324,7 +325,8 @@ main {
   border-bottom: 15px solid #40e0d0;
   margin-left: 650px;
   display: block; /* Додає нормальну поведінку блочного елемента */
-  margin-bottom: -35px;
+  position: absolute;
+  margin-bottom: -20px;
 }
 
 .bordero {
