@@ -257,7 +257,7 @@ main {
 }
 
 .time-top-1 {
-  font-size: 40px;
+  font-size: 55px;
   top: 25px;
   position: absolute; //*відштовхує ел.від бат.конт.без впливу розміру ін.ел*/
 }
@@ -269,6 +269,7 @@ main {
   transform: translateY(+20px);
   margin-left: -50px;
   color: #a2abab;
+  font-size: 25px;
 }
 
 .day-top {
@@ -277,6 +278,7 @@ main {
   transform: translateY(-20px);
   display: grid;
   place-items: center;
+  font-size: 30px;
 }
 
 .num-top {
@@ -295,6 +297,11 @@ main {
 .time-top-5 {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   color: aqua;
+  font-size: 30px;
+}
+
+.time-top-6{
+  font-size: 30px;
 }
 
 .right-top-5 {
@@ -306,6 +313,7 @@ main {
   position: relative;
   justify-content: end; /* Вирівнює по горизонталі */
   bottom: 25px;
+  font-size: 20px;
 }
 
 .num-top-5-triangle {
@@ -314,7 +322,7 @@ main {
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 15px solid #40e0d0;
-  margin-left: 396px;
+  margin-left: 650px;
   display: block; /* Додає нормальну поведінку блочного елемента */
   margin-bottom: 9px;
 }
