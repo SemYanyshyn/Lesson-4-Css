@@ -211,7 +211,7 @@ main {
 
 .word-3 {
   align-items: flex-end;
-  margin-left: 73.5%;
+  margin-left: 74%;
 }
 
 .galka::before {
@@ -323,10 +323,10 @@ main {
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 15px solid #40e0d0;
-  margin-left: 630px;
+  margin-left: 625px;
   display: block; /* Додає нормальну поведінку блочного елемента */
   position: relative;
-  top: -30px;
+  top: -34px;
 }
 
 .bordero {
